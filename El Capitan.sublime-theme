@@ -652,7 +652,8 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - El Capitan/icons/folder.png",
+        // "layer0.texture": "Theme - El Capitan/icons/folder.png",
+        "layer0.texture": "Theme - El Capitan/Assets/fold-closed.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -660,14 +661,16 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - El Capitan/icons/folder_opened.png",
+        // "layer0.texture": "Theme - El Capitan/icons/folder_opened.png",
+        "layer0.texture": "Theme - El Capitan/Assets/fold-open.png",
         "layer0.opacity": 1.0
     },
     // Sidebar folder closed (blue)
     {
         "class": "icon_folder",
         "settings": [ "el_capitan_sidebar_blue_folders" ],
-        "layer0.texture": "Theme - El Capitan/icons/folder_blue.png",
+        // "layer0.texture": "Theme - El Capitan/icons/folder_blue.png",
+        "layer0.texture": "Theme - El Capitan/Assets/fold-closed.png",
         "layer0.opacity": 1.0
     },
     // Sidebar folder open (blue)
@@ -675,7 +678,8 @@
         "class": "icon_folder",
         "settings": [ "el_capitan_sidebar_blue_folders" ],
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - El Capitan/icons/folder_blue_opened.png",
+        // "layer0.texture": "Theme - El Capitan/icons/folder_blue_opened.png",
+        "layer0.texture": "Theme - El Capitan/Assets/fold-open.png",
         "layer0.opacity": 1.0
     },
     // Sidebar folder loading
